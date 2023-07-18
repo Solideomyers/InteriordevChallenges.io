@@ -1,49 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     
     <head>
         <title>Interior Design</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles.css"> 
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" 
+        rel="stylesheet">
+         <!--css rules  -->
+         <!-- 
+            font-family: 'Crimson Pro', serif;
+            font-family: 'Lora', serif;
+            font-family: 'Montserrat', sans-serif;
+          -->
     </head>
 
     <body>
 
-        <header>
+        <header id="header">
             <div id="logo">
                 <h1 id="name">the interior</h1>
             </div>
-            <nav>
-                <span>Home</span>
-                <span>Collection</span>
-                <span>About</span>
-                <span>Contact</span>
+            <nav id="navBar">
+                <a href="https://www.linkedin.com/in/franciscomyers/" target="_blank">Home</a>
+                <a href="#" target="_blank">Collection</a>
+                <a href="#" target="_blank">About</a>
+                <a href="#" target="_blank">Contact</a>
             </nav>
         </header>
 
-        <main>
-            <section>
-                <div>
-                    <h1>Modern Interior</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur. 
+        <main id="central">
+            <section id="leftSection">
+                <div id="styleDesign">
+                    <h1 id="title">Modern Interior</h1>
+                    <p id="description">Lorem ipsum dolor sit amet consectetur. 
                         Morbi lectus cras nisi leo leo scelerisque in in. 
                         Morbi lectus cras nisi leo leo scelerisque in in.
                     </p>
                 </div>
-                <div>
-                    <span>Read more</span>
-                    <span>icono</span>
+                <div id="boxRead">
+                    <span id="read">Read more</span>
+                    <svg id="arrow" xmlns="http://www.w3.org/2000/svg" stroke-width="4" width="32" height="42" viewBox="0 0 24 24"><path fill="currentColor" d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"/>
+                    </svg>
                 </div>
             </section>
-            <section>
-                <img src="./assets//photo1.png" alt="room">
-                <section>
-                    <div>
-                        <img src="./assets/photo2.png" alt="profile">
-                        <div>
-                            <h1>Aliza Webber</h1>
-                            <h2>Interior Designer</h2>
+            <section id="rightSection">
+                <img id="room" src="./assets//photo1.png" alt="room">
+                <section id="card">
+                    <div id="boxCard">
+                        <img id="profileImg" src="./assets/photo2.png" alt="profile">
+                        <div id="profile">
+                            <h1 id="profileName">Aliza Webber</h1>
+                            <h2 id="profileRol">Interior Designer</h2>
                         </div>
                     </div>
                     <p>Designed in 2020 by Aliza Webber</p>
@@ -52,7 +63,7 @@
         </main>
 
         <footer>
-            <h1>created by <span>solideomyers</span> - devChallenges.io</h1>
+            <h1>created by <a href="https://github.com/Solideomyers" target="_blank">solideomyers</a> - devChallenges.io</h1>
         </footer>
 
         <!-- <script src="index.js"></script> -->
